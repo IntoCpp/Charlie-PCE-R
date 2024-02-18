@@ -18,11 +18,11 @@ def favicon():
 
 @app.route('/hello', methods=['POST'])
 def hello():
-   name = request.form.get('name')
+   lang = request.form.get('language')
 
-   if name:
-       print('Request for hello page received with name=%s' % name)
-       return render_template('hello.html', name = name)
+   if lang:
+       print('Request for hello page received with name=%s' % lang)
+       return render_template('hello.html', name = lang)
    else:
        print('Request for hello page received with no name or blank name -- redirecting')
        return redirect(url_for('index'))
