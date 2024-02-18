@@ -1,0 +1,351 @@
+{
+    "Secret Societies":
+    {
+        "Antimutant":
+        {
+            "Purpose":"Tuer les mutants et arrêter les produits chimiques dans les aliments et les boissons qui causent des mutations.", 
+            "Intimidate":2, 
+            "Bluff":-2
+        },
+        "Communistes":
+        {
+            "Purpose":"Transformer le Complexe Alpha en une utopie communiste pour le peuple.", 
+            "Stealth":2,
+            "Charm":-2
+        },
+        "Corpore Metal":
+        {
+            "Purpose":"Les humains sont obsolètes, il faut donc suivre les statistiques des robots comme celles des footballeurs.", 
+            "Program":2,
+            "Psychology":-2
+        },
+        "Death Leopard":
+        {
+            "Purpose":"Faire du rock, se saouler et semer la pagaille (et s'en sortir).", 
+            "Throw":2,
+            "Engineer":-2
+        },
+        "FCCCP":
+        {
+            "Purpose":"Adorer l'Ordinateur comme Dieu et punir les païens et les hérétiques", 
+            "Psychology":2,
+            "Science":-2
+        },
+        "Destructeurs de Frankenstein":
+        {
+            "Purpose":"Les robots sont diaboliques et doivent être détruits, mais êtes-vous secrètement un androïde ?", 
+            "Melee":2,
+            "Program":-2
+        },
+        "Libre entreprise":
+        {
+            "Purpose":"Les gangs qui vendent n'importe quoi à n'importe qui pour le bon prix", 
+            "Bluff":2,
+            "Bureaucracy":-2
+        },
+        "Haxxor":
+        {
+            "Purpose":"Information et Ami Ordinateur doit être sous contrôle humain.", 
+            "Operate":2,
+            "Melee":-2
+        },
+        "Psion":
+        {
+            "Purpose":"Les humains sont obsolètes, alors obéissez aveuglément à vos maîtres mutants.", 
+            "Science":2,
+            "Athletics":-2
+        },
+        "PURGE":
+        {
+            "Purpose":"Des guerriers amateur prêts à tout détruire et à tout recommencer.", 
+            "Demolitions":2,
+            "Stealth":-2
+        },
+        "Romantiques":
+        {
+            "Purpose":"La vie pré-Whoops était bien meilleure, même si on n'y connaissait rien.", 
+            "Bureaucracy":2,
+            "Intimidate":-2
+        },
+        "Sierra Club":
+        {
+            "Purpose":"Les amoureux de la nature qui sont prêts à tuer pour la protéger.", 
+            "Athletics":2,
+            "Alpha Complex":-2
+        }
+    },
+
+    "Service Groups":
+    {
+        "Forces armées": 
+        {
+            "Purpose":"Combattre pour protéger le complexe Alpha.", 
+            "Violence":1, 
+            "Science": -1, 
+            "Stealth": -1
+        },
+        "CPU": 
+        {
+            "Purpose": "Gérer le gouvernement et analyser les données.", 
+            "Brains": 1, 
+            "Guns": -1, 
+            "Operate": -1
+        },
+        "HPD&MC":
+        { 
+            "Purpose": "Créer des salles, du divertissement et de la propagande.", 
+            "Chutzpah": 1, 
+            "Throw": -1, 
+            "Intimidate": -1
+        },
+        "IntelSec":
+        { 
+            "Purpose": "Faire respecter les lois et éliminer les traîtres.", 
+            "Violence": 1, 
+            "Engineer": -1, 
+            "Charm": -1
+        },
+        "PLC":
+        { 
+            "Purpose": "Créer et distribuer des articles, y compris de la nourriture", 
+            "Chutzpah": 1, 
+            "Athletics": -1, 
+            "Program": -1
+        },
+        "Services énergétiques":
+        { 
+            "Purpose": "Générer de l'énergie et maintenir le réseau de distribution", 
+            "Mechanics": 1, 
+            "Melee": -1, 
+            "Demolitions": -1
+        },
+        "R&D":
+        { 
+            "Purpose": "Inventer des choses pour améliorer la vie et combattre les traîtres", 
+            "Brains": 1, 
+            "Operate": -1, 
+            "Alpha Complex": -1
+        },
+        "Services techniques":
+        { 
+            "Purpose": "Créer et réparer des machines, y compris des bots", 
+            "Mechanics": 1, 
+            "Psychology": -1, 
+            "Bluff":-1 
+        }
+    }, 
+    "Mutant Powers":
+    {
+        "Contrôle de l'adrénaline": 
+        {
+            "Purpose": "Une force et une vitesse impressionnantes",
+            "Warning": "Peut entraîner des agressions et des blessures"
+        },
+        "Charme":
+        {
+            "Purpose": "Se faire des amis et influencer les gens contre leur gré",
+            "Warning": "Peut se retourner contre vous et amener les gens à vous mépriser"
+        },
+        "Corrode":
+        {
+            "Purpose": "Transformer le métal en une bouillie chaude et cendrée",
+            "Warning": "Il est rare que l'on touche à ses propres mains, presque jamais"
+        },
+        "Cryokinésie":
+        {
+            "Purpose": "Créer un froid intense, voire geler les objets",
+            "Warning": "Oww, gel du cerveau!"
+        },
+        "Electrochocs":
+        {
+            "Purpose": "Tirez un éclair d'électricité du bout des doigts",
+            "Warning": "Risque de court-circuiter les appareils électriques situés à proximité"
+        },
+        "Champ de force":
+        {
+            "Purpose": "Projeter un cercle d'un mètre de protection invisible",
+            "Warning": "Il peut bloquer l'air, alors combien de temps pouvez-vous retenir votre respiration ?"
+        },
+        "Hypersenses":
+        {
+            "Purpose": "Augmenter les cinq sens normaux à 11",
+            "Warning": "La surstimulation est un euphémisme"
+        },
+        "invisibilité":
+        {
+            "Purpose": "Soyez invisibles, y compris vos vêtements et votre équipement",
+            "Warning": "Beurk, seule la peau est devenue invisible"
+        },
+        "Amour des Machines":
+        {
+            "Purpose": "Les robots et même l'ordinateur peuvent vous obéir",
+            "Warning": "Peut se retourner contre vous et faire en sorte que les robots et l'ordinateur vous détestent"
+        },
+        "Explosion mentale":
+        {
+            "Purpose": "Endommager le cerveau d'une personne à distance",
+            "Warning": "Peut être renvoyé à votre propre esprit"
+        },
+        "Pyrokinésie":
+        {
+            "Purpose": "Créer une forte chaleur, voire enflammer des objets",
+            "Warning": "Ouch! Brûlures au 2ème degré!"
+        },
+        "Télékinesie":
+        {
+            "Purpose": "Déplacer des objets par la pensée",
+            "Warning": "Déplacer tout sauf la chose"
+        },
+        "Télépathie":
+        {
+            "Purpose": "Parler silencieusement aux autres d'esprit à esprit",
+            "Warning": "Venez-vous de diffuser (a tous) vos propres pensées ?"
+        },
+        "Téléportation":
+        {
+            "Purpose": "Bamf toi-même vers un nouvel endroit que tu peux voir",
+            "Warning": "Il est facile d'oublier d'emporter des vêtements et du matériel pour la promenade"
+        },
+        "Vision Rayon-X":
+        {
+            "Purpose": "Voir à travers le métal, la chair et les matériaux similaires",
+            "Warning": "Bonjour le mélanome oculaire!"
+        }
+    }, 
+    "Treason Buttons":
+    [
+        "Des choses gardées derrière des portes non verrouillées.",
+        "Dans une grande foule où les caméras ne peuvent pas vous voir.",
+        "La chose dont vous avez vraiment besoin, c'est d'être assis là.",
+        "Vous vous ennuyez depuis presque 10 minutes d'affilée.",
+        "Un citoyen de haut niveau agit comme s'il était parfait.",
+        "Rester seul, ne serait-ce qu'un instant.",
+        "Un citoyen se moque de vous devant les autres.",
+        "Quelqu'un ne valorise pas les choses importantes qu'il possèdes.",
+        "Voir des pilules qui pourraient créer un bon trip psychédélique.", 
+        "Vous êtes traité comme un idiot.",
+        "Un citoyen de rang inférieur essaie d'attirer votre attention.",
+        "Vous n'avez presque plus le temps de finir quelque chose.",
+        "Ce n'est pas seulement sale, c'est absolument dégoûtant.",
+        "Quelque chose est sur le point de tomber et de se casser",
+        "Un citoyen a de bien plus belles choses que vous.",
+        "Voir un pouvoir mutant utilisé.",
+        "Les lumières s'éteignent.",
+        "Quelqu'un a été con avec vous juste pour être con.",
+        "La justice a été bloquée par un citoyen riche et puissant",
+        "Il y a une chance d'intimider quelqu'un de plus faible que vous."
+    ],
+    "Violence Buttons":
+    [
+        "On se moque de vous pour une raison indépendante de votre volonté.", 
+        "Lorsque vous recevez une amende de 150 points XP ou plus.", 
+        "Un méchant (ou un bot) sous votre surveillance s'enfuit.", 
+        "Se plaindre des gens qui ont des autorisations de sécurité plus élevées.", 
+        "Les files d'attente très longues", 
+        "Passer de 'Bien' à 'Blessé' en un seul jetde de dé.", 
+        "Quelqu'un est promu et pas vous.", 
+        "Être ignoré alors qu'on a quelque chose de vital à partager.", 
+        "Bruits soudains et très forts.", 
+        "Gaspiller de la nourriture, en particulier HOT-FUN ou COLD-FUN.", 
+        "Ne pas pouvoir passer par la porte allors qu'il faut passer par la porte.", 
+        "Avoir l'impression d'étouffer.", 
+        "Se faire dire d'être heureux alors qu'on est au maximum de son bonheur.", 
+        "L'odeur du soylent périmé.", 
+        "Le manque de sommeil.", 
+        "Quelque chose est en feu et personne ne l'éteint.", 
+        "Les lumières s'éteignent.", 
+        "Quelqu'un vous fait saigner de votre propre sang.", 
+        "Perte de l'équipement assigné.", 
+        "Quelqu'un harcèle les faibles et les impuissants."
+    ],
+    "Names M":
+    [
+        "Alex",
+        "Benjamin",
+        "Charlie",
+        "Daniel",
+        "Ethan",
+        "Francois",
+        "George",
+        "Henry",
+        "Isaac",
+        "Jacob",
+        "Kevin",
+        "Liam",
+        "Mathieux",
+        "Nathan",
+        "Oliver",
+        "Patrick",
+        "Quentin",
+        "Raphaëlle",
+        "Ruby",
+        "Samuel",
+        "Thomas",
+        "Ulysses",
+        "Victor",
+        "William",
+        "Xavier",
+        "Yannick",
+        "Zachary"
+        ],
+    "Names F":
+    [
+            "Abigail",
+            "Alice",
+            "Amelia",
+            "Aria",
+            "Ava",
+            "Bethany",
+            "Bella",
+            "Catherine",
+            "Charlotte",
+            "Chloe",
+            "Danielle",
+            "Delilah",
+            "Eleanor",
+            "Ella",
+            "Emily",
+            "Emma",
+            "Evelyn",
+            "Fiona",
+            "Grace",
+            "Hannah",
+            "Harper",
+            "Isabella",
+            "Jasmine",
+            "Jessica",
+            "Julie",
+            "Katherine",
+            "Layla",
+            "Leah",
+            "Lily",
+            "Megan",
+            "Mia",
+            "Natalie",
+            "Nora",
+            "Olivia",
+            "Ophelia",
+            "Penelope",
+            "Quinn",
+            "Rachel",
+            "Rebecca",
+            "Riley",
+            "Rose",
+            "Ruby",
+            "Sarah",
+            "Scarlett",
+            "Sophia",
+            "Tiffany",
+            "Ursula",
+            "Victoria",
+            "Violette",
+            "Wendy",
+            "Xandra",
+            "Xena",
+            "Yara",
+            "Yolanda",
+            "Yvette",
+            "Zara",
+            "Zoe"
+        ]
+}

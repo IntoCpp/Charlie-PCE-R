@@ -1,0 +1,359 @@
+{
+    "Secret Societies":
+    {
+        "Antimutant":
+        {
+            "Purpose":"Kill mutants and stop chemicals in food and drink that cause mutations", 
+            "Intimidate":2, 
+            "Bluff":-2
+        },
+        "Communists":
+        {
+            "Purpose":"Turn Alpha Complex into a communist utopia for the people", 
+            "Stealth":2,
+            "Charm":-2
+        },
+        "Corpore Metal":
+        {
+            "Purpose":"Humans are obsolete so track bot stats like footballers", 
+            "Program":2,
+            "Psychology":-2
+        },
+        "Death Leopard":
+        {
+            "Purpose":"Rock out, get wasted and cause a lot of mayhem (and get away with it)", 
+            "Throw":2,
+            "Engineer":-2
+        },
+        "FCCCP":
+        {
+            "Purpose":"Worship The Computer as God and punish heathens and heretics", 
+            "Psychology":2,
+            "Science":-2
+        },
+        "Frankenstein Destroyers":
+        {
+            "Purpose":"Bots are evil and should be destroyed, but are you secretly an android?", 
+            "Melee":2,
+            "Program":-2
+        },
+        "Free Enterprise":
+        {
+            "Purpose":"Gangs that sell anything to anyone for the right price", 
+            "Bluff":2,
+            "Bureaucracy":-2
+        },
+        "Haxxor":
+        {
+            "Purpose":"Information and Friend Computer must be under human control", 
+            "Operate":2,
+            "Melee":-2
+        },
+        "Psion":
+        {
+            "Purpose":"Humans are obsolete so blindly obey your mutant masters", 
+            "Science":2,
+            "Athletics":-2
+        },
+        "PURGE":
+        {
+            "Purpose":"Weekend warriors set on destroying everything and starting over", 
+            "Demolitions":2,
+            "Stealth":-2
+        },
+        "Romantics":
+        {
+            "Purpose":"Pre-Whoops life was way better despite knowing nothing about it", 
+            "Bureaucracy":2,
+            "Intimidate":-2
+        },
+        "Sierra Club":
+        {
+            "Purpose":"Lovers of nature who are eager to kill to protect it", 
+            "Athletics":2,
+            "Alpha Complex":-2
+        }
+    },
+
+    "Service Groups":
+    {
+
+        "Armed Forces": 
+        {
+            "Purpose":"Fight battles to protect Alpha Complex", 
+            "Violence":1, 
+            "Science": -1, 
+            "Stealth": -1
+        },
+        "CPU": 
+        {
+            "Purpose": "Run the government and analyse data", 
+            "Brains": 1, 
+            "Guns": -1, 
+            "Operate": -1
+        },
+        "HPD&MC":
+        { 
+            "Purpose": "Create rooms, entertainment and propaganda", 
+            "Chutzpah": 1, 
+            "Throw": -1, 
+            "Intimidate": -1
+        },
+        "IntSec":
+        { 
+            "Purpose": "Enforce laws and terminate traitors", 
+            "Violence": 1, 
+            "Engineer": -1, 
+            "Charm": -1
+        },
+        "PLC":
+        { 
+            "Purpose": "Create and distribute items including food", 
+            "Chutzpah": 1, 
+            "Athletics": -1, 
+            "Program": -1
+        },
+        "Power Services":
+        { 
+            "Purpose": "Generate power and maintain the grid", 
+            "Mechanics": 1, 
+            "Melee": -1, 
+            "Demolitions": -1
+        },
+        "R&D":
+        { 
+            "Purpose": "Invent things to improve life and fight traitors", 
+            "Brains": 1, 
+            "Operate": -1, 
+            "Alpha Complex": -1
+        },
+        "Technical Services":
+        { 
+            "Purpose": "Create and repair machinery including bots", 
+            "Mechanics": 1, 
+            "Psychology": -1, 
+            "Bluff":-1 
+        }
+    }, 
+    "Mutant Powers":
+    {
+
+        "Adrenalin Control": 
+        {
+            "Purpose": "Impressive bursts of strength and speed",
+            "Warning": "Can lead to aggression and wounds"
+        },
+        "Charm":
+        {
+            "Purpose": "Win friends and influence people against their will",
+            "Warning": "Can backfire and make people despise you"
+        },
+        "Corrode":
+        {
+            "Purpose": "Turn metal into a warm, ashy goo",
+            "Warning": "Rarely affects your own hands, hardly ever"
+        },
+        "Cryokinesis":
+        {
+            "Purpose": "Create severe cold, even freeze things",
+            "Warning": " Oww, brain freeze!"
+        },
+        "Electroshock":
+        {
+            "Purpose": "Shoot a bolt of electricity from your fingertips",
+            "Warning": "Might short-out electric devices nearby"
+        },
+        "Force Field":
+        {
+            "Purpose": "Project a 1-metre circle of invisible protection",
+            "Warning": "It can block air, so how long can you hold your breath?"
+        },
+        "Hypersenses":
+        {
+            "Purpose": "Turn the normal five senses up to 11",
+            "Warning": "Overstimulation puts it mildly"
+        },
+        "Invisibility":
+        {
+            "Purpose": "Go invisible, including your clothes and gear",
+            "Warning": "Ewww, only the skin went invisible"
+        },
+        "Machine Empathy":
+        {
+            "Purpose": "Bots and even The Computer can obey you",
+            "Warning": "Can backfire and make bots and The Computer hate you"
+        },
+        "Mental Blast":
+        {
+            "Purpose": "Damage someone’s brain from a distance",
+            "Warning": "Can be reflected back at your own mind"
+        },
+        "Pyrokinesis":
+        {
+            "Purpose": "Create severe heat, even light things aflame",
+            "Warning": "Oww, 2nd-degree burns!"
+        },
+        "Telekinesis":
+        {
+            "Purpose": "Move things with your mind",
+            "Warning": "Move everything except the thing"
+        },
+        "Telepathy":
+        {
+            "Purpose": "Speak silently to others mind-to-mind",
+            "Warning": "Did you just broadcast your own thoughts?"
+        },
+        "Teleport":
+        {
+            "Purpose": "Bamf yourself to a new location you can see",
+            "Warning": "It is easy to forget to bring clothes and gear along for the ride"
+        },
+        "X-ray Vision":
+        {
+            "Purpose": "See through metal, flesh and similar materials",
+            "Warning": "Well hello, ocular melanoma!"
+        }
+    }, 
+    "Treason Buttons":
+    [
+        "Stuff kept behind unlocked doors.",
+        "In a large crowd where cameras cannot see you.",
+        "The thing you really need is just sitting there.",
+        "You’ve been bored for almost 10 minutes straight.",
+        "A higher clearance citizen acts like they are perfect.",
+        "You are all alone, even just for a moment.",
+        "A citizen mocks you in front of others.",
+        "Someone does not value the important things they have.",
+        "Seeing some pills that might create a nice psychedelic trip.",
+        "You are treated like an idiot.",
+        "A lower clearance citizen trying to get your attention.",
+        "You are almost out of time to finish something.",
+        "It is not just dirty but absolutely filthy.",
+        "Something is close to falling over and breaking.",
+        "A citizen has much nicer things than you.",
+        "Seeing a mutant power in use.",
+        "The lights go out.",
+        "Someone was a prat to you just to be a prat.",
+        "Justice was blocked by a rich and powerful citizen.",
+        "There is a chance to bully someone weaker than you."
+    ],
+    "Violence Buttons":
+    [
+        "Being mocked over something out of your control.", 
+        "When you receive a fine for 150 XP Points or more.", 
+        "A bad guy (or bot) gets away on your watch.", 
+        "Complaining about people with higher security clearances.", 
+        "Very long queues.", 
+        "Going from Fine to Injured in one roll.", 
+        "Someone gets promoted and you do not.", 
+        "Being ignored when you have something vital to share.", 
+        "Sudden, very loud noises.", 
+        "Wasting food, especially Hot Fun or Cold Fun.", 
+        "Cannot get through the door but must get through the door.", 
+        "Feeling like you are suffocating.", 
+        "Being told to be happy when you are at maximum happiness.", 
+        "The smell of expired soylent.", 
+        "Sleep deprivation.", 
+        "Something is on fire and no one is putting it out.", 
+        "The lights go out. ", 
+        "Someone makes you bleed your own blood. ", 
+        "Losing assigned gear. ", 
+        "Someone bullying the weak and powerless. "
+    ], 
+    "Names M":
+    [
+        "Alex",
+        "Benjamin",
+        "Charlie",
+        "Daniel",
+        "Ethan",
+        "Frank",
+        "George",
+        "Henry",
+        "Isaac",
+        "Jacob",
+        "Kevin",
+        "Liam",
+        "Matthew",
+        "Nathan",
+        "Oliver",
+        "Patrick",
+        "Quentin",
+        "Ryan",
+        "Samuel",
+        "Thomas",
+        "Ulysses",
+        "Victor",
+        "William",
+        "Xavier",
+        "Yannick",
+        "Zachary"
+    ],
+    "Names F":
+    [
+        "Alice",
+        "Bethany",
+        "Catherine",
+        "Danielle",
+        "Eleanor",
+        "Fiona",
+        "Grace",
+        "Hannah",
+        "Isabella",
+        "Jessica",
+        "Katherine",
+        "Lily",
+        "Megan",
+        "Natalie",
+        "Olivia",
+        "Penelope",
+        "Quinn",
+        "Rachel",
+        "Sarah",
+        "Tiffany",
+        "Ursula",
+        "Victoria",
+        "Wendy",
+        "Alice",
+        "Bethany",
+        "Catherine",
+        "Danielle",
+        "Eleanor",
+        "Fiona",
+        "Grace",
+        "Hannah",
+        "Isabella",
+        "Jessica",
+        "Katherine",
+        "Lily",
+        "Megan",
+        "Natalie",
+        "Olivia",
+        "Penelope",
+        "Quinn",
+        "Rachel",
+        "Sarah",
+        "Tiffany",
+        "Ursula",
+        "Victoria",
+        "Wendy",
+        "Xena",
+        "Yolanda",
+        "Zoe",
+        "Emily",
+        "Sophia",
+        "Ava",
+        "Mia",
+        "Amelia",
+        "Harper",
+        "Evelyn",
+        "Abigail",
+        "Ella",
+        "Scarlett",
+        "Chloe",
+        "Aria",
+        "Riley",
+        "Nora", 
+        "Layla"
+    ]
+}

@@ -1,5 +1,7 @@
 import os
 
+from paranoia import ParanoiaCharacterGenerator
+
 from flask import (Flask, redirect, render_template, request,
                    send_from_directory, url_for)
 
@@ -19,13 +21,14 @@ def favicon():
 @app.route('/hello', methods=['POST'])
 def hello():
    lang = request.form.get('language')
+   sexu = request.form.get('sex')
 
-   if lang:
-       print('Request for hello page received with name=%s' % lang)
-       return render_template('hello.html', name = lang)
-   else:
-       print('Request for hello page received with no name or blank name -- redirecting')
-       return redirect(url_for('index'))
+   print( "generating characte with params: " + lang + " and " + sexu)
+   pcg = ParanoiaCharacterGenerator(language=lang, sex=sexu)
+   pcg.generate_character()
+
+   print("Character generated, vcall hello page with name: " + pcg.name + " and sex: " + pcg.sex)
+   return render_template('hello.html', name = pcg.name)
 
 
 if __name__ == '__main__':
