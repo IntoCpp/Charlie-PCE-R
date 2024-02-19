@@ -14,16 +14,20 @@
           </div>
         <form method="post" action="{{url_for('hello')}}">
             <div class="col-md-6 mx-auto text-center">
-                <label for="action" class="form-label fw-bold fs-5">Select language and press 'Generate'.</label>
+                <label for="action" class="form-label fw-bold fs-5">Select language and sex then press 'Generate'.</label>
 
                 <!-- <p class="lead mb-2">Could you please tell me your name citizen?</p> -->
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-center my-1">
                   
-                    <select class="form-control" id="lang_combo" name="language" style="max-width: 128px;">
+                    <select class="form-control_LANG" id="lang_combo" name="language" style="max-width: 128px;">
                         <option value="ENG">ENG</option>
                         <option value="FRA">FRA</option>
                     </select>
-                  </div>            
+                    <select class="form-control_SEX" id="sex_combo" name="sex" style="max-width: 128px;">
+                      <option value="M">M</option>
+                      <option value="F">F</option>
+                  </select>
+                </div>            
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
                   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Generate</button>
                 </div>            
