@@ -13,9 +13,22 @@
             <h1 class="display-6 fw-bold">Citizen Caracteristics</h1>
           </div>
           <div class="col-md-6 mx-auto">
+            <style>
+              .offset-line {
+                margin-left: 20px;
+              }
+            </style>
             <p class="fs-5">
-                Name: {{ name }}
-                Service Group: {{ service }}
+                <h1 style="font-size: 18px;">Part 1: Personally Identifiable Information (PII)</h1>
+                Name: {{ name }}<br>
+                Service Group: {{ service }}<br>
+                <span class="offset-line"> Group Description: {{ service_desc }}</span><br>
+                Treason Button: {{btn_treason}}<br>
+                Violence Button: {{btn_violence}}<br>
+            </p>
+            <p>
+            <h1 style="font-size: 18px;">Part Too: Productivity Profile</h1>
+
             </p>
             <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg px-4 gap-3">Back home</a>
           </div>

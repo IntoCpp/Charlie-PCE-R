@@ -28,7 +28,13 @@ def hello():
    pcg.generate_character()
 
    print("Character generated, vcall hello page with name: " + pcg.name + " and sex: " + pcg.sex)
-   return render_template('hello.html', name = pcg.name)
+   return render_template(
+      'hello.html', 
+      name = pcg.name, 
+      service = pcg.service_group, 
+      service_desc = pcg.service_group_description,
+      btn_treason = pcg.button_treason, 
+      btn_violence = pcg.button_violence)
 
 
 if __name__ == '__main__':
