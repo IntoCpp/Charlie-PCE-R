@@ -20,11 +20,10 @@
             </style>
             <p class="fs-5">
                 <h1 style="font-size: 18px;">Part 1: Personally Identifiable Information (PII)</h1>
-                Name: {{ name }}<br>
-                Service Group: {{ service }}<br>
-                <span class="offset-line"> Group Description: {{ service_desc }}</span><br>
-                Treason Button: {{btn_treason}}<br>
-                Violence Button: {{btn_violence}}<br>
+                <strong>Name:</strong> {{ name }}<br>
+                <strong>Service Group:</strong> {{ service }} : {{ service_desc }}<br>
+                <strong>Treason Button:</strong> {{btn_treason}}<br>
+                <strong>Violence Button:</strong> {{btn_violence}}<br>
             </p>
             <p>
             <h1 style="font-size: 18px;">Part Too: Productivity Profile</h1>
@@ -33,7 +32,18 @@
             Bureaucracy: {{Bureaucracy}} <span class="offset-line"></span> Charm: {{Charm}} <span class="offset-line"></span> Engineer: {{Engineer}} <span class="offset-line"></span> Guns: {{Guns}} <span class="offset-line"></span><br>
             Psychology: {{Psychology}} <span class="offset-line"></span> Intimidate: {{Intimidate}} <span class="offset-line"></span> Operate: {{Operate}} <span class="offset-line"></span> Melee: {{Melee}} <span class="offset-line"></span><br>
             Science: {{Psychology}} <span class="offset-line"></span> Stealth: {{Stealth}} <span class="offset-line"></span> Program: {{Program}} <span class="offset-line"></span> Throw: {{Throw}} <span class="offset-line"></span><br>
+            <br>
+            Your characters also get: 8 Moxies, 200 XP points, a red laser pistol and a red reflect armour.<br>
             </p>
+            <p>
+              <h1 style="font-size: 18px;">Naughty side (Keep it secret)</h1>
+            <strong>Secret Society:</strong> {{Secret}} <br>
+              <span class="offset-line"> <strong>Secret Objective:</strong> {{ Secret_desc }}</span><br>
+              <strong>Mutant Power:</strong> {{Mutant}} : {{Mutant_desc}}<br>
+              <span class="offset-line"> <strong>Description:</strong> {{ Mutant_purpose }}</span><br>
+              <span class="offset-line"> <strong>Warning:</strong> {{ Mutant_warning }}</span><br>
+            </p>
+  
             <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg px-4 gap-3">Back home</a>
           </div>
      </main>      
