@@ -27,7 +27,11 @@ def hello():
    pcg = ParanoiaCharacterGenerator(language=lang, sex=sexu)
    pcg.generate_character()
 
-   print("Character generated, vcall hello page with name: " + pcg.name + " and sex: " + pcg.sex)
+   print("Character generated, calling hello page")
+   #
+   # DEBUG: To see the generated character in the generator:
+   # pcg.print_character()
+
    return render_template(
       'hello.html', 
       name = pcg.name, 
@@ -66,7 +70,6 @@ def hello():
       Mutant = pcg.mutations,
       Mutant_purpose = pcg.mutations_purpose,
       Mutant_warning = pcg.mutations_warning
-
       )
       
 
