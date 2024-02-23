@@ -259,7 +259,8 @@ def main():
     parser.add_argument("-l", "--language", default="ENG", help="Specify the language (default: ENG)")
     parser.add_argument("-n", "--name", default="", help="(Optional) Specify the character name. Sector and Security color is added automatically.")
     parser.add_argument("-d", "--debug", action="store_true", help="Enable debug mode for additional trace information")
-    parser.add_argument("-f", "--file", help="Specify a file name to save/append the console output to.", default="")
+# Option removed for online web service.    
+#    parser.add_argument("-f", "--file", help="Specify a file name to save/append the console output to.", default="")
     parser.add_argument("-b", "--number", type=int, default=1, help="Specify the number of characters to generate (default: 1)")
 
     # Parse the command line arguments
@@ -268,7 +269,7 @@ def main():
     for _ in range(args.number):
         generator = ParanoiaCharacterGenerator(args.language, args.sex, args.name)
         generator.debug = args.debug
-        generator.output_file = args.file
+        #generator.output_file = args.file
         generator.generate_character()
         generator.print_character()
 
