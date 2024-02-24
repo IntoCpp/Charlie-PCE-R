@@ -8,14 +8,74 @@
    <body>
      <main>
         <div class="px-4 py-3 my-2 text-center">
-            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/azure-icon.svg') }}" alt="Azure Logo" width="192" height="192"/>
-            <!-- <img  src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
-            <h1 class="display-6 fw-bold">Hello Citizen {{name}}</h1>
+            <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/paranoia-friendly-eye.svg') }}" alt="Friend-Computer eye" width="192" height="192"/>
+            <p class="text-center" style="opacity: 0.25;">Provided for fun by https://github.com/IntoCpp/Charlie-PCE-R</p>
+            <h1 class="display-6 fw-bold">Citizen Caracteristics</h1>
+          </div>
+          <div class="col-md-6 mx-auto">
+            <style>
+              .offset-line {
+                margin-left: 20px;
+              }
+            </style>
             <p class="fs-5">
-                It is nice to meet you!
+                <h1 style="font-size: 18px;">Part 1: Personally Identifiable Information (PII)</h1>
+                <strong>Name:</strong> {{ name }}<br>
+                <strong>Service Group:</strong> {{ service }} : {{ service_desc }}<br>
+                <strong>Treason Button:</strong> {{btn_treason}}<br>
+                <strong>Violence Button:</strong> {{btn_violence}}<br>
             </p>
+            <p>
+            <h1 style="font-size: 18px;">Part Too: Productivity Profile</h1>
+
+              <table>
+                <!-- Table header -->
+                <tr>
+                  <td style="width: 200px;"><strong>Brains: {{Brains}}</strong></td>
+                  <td style="width: 200px;"><strong>Chutzpah: {{Chutzpah}}</strong></td>
+                  <td style="width: 200px;"><strong>Mechanics: {{Mechanics}}</strong></td>
+                  <td style="width: 200px;"><strong>Violence: {{Violence}}</strong></td>
+                </tr>
+                <!-- Rest of the table rows -->
+                <tr>
+                  <td>Alpha Complex: {{Alpha}}</td>
+                  <td>Bluff: {{Bluff}}</td>
+                  <td>Demolitions: {{Demolitions}}</td>
+                  <td>Athletics: {{Athletics}}</td>
+                </tr>
+                <tr>
+                  <td>Bureaucracy: {{Bureaucracy}}</td>
+                  <td>Charm: {{Charm}}</td>
+                  <td>Engineer: {{Engineer}}</td>
+                  <td>Guns: {{Guns}}</td>
+                </tr>
+                <tr>
+                  <td>Psychology: {{Psychology}}</td>
+                  <td>Intimidate: {{Intimidate}}</td>
+                  <td>Operate: {{Operate}}</td>
+                  <td>Melee: {{Melee}}</td>
+                </tr>
+                <tr>
+                  <td>Science: {{Psychology}}</td>
+                  <td>Stealth: {{Stealth}}</td>
+                  <td>Program: {{Program}}</td>
+                  <td>Throw: {{Throw}}</td>
+                </tr>
+              </table>
+            </strong><br>
+            Your characters also get: 8 Moxies, 200 XP points, a red laser pistol and a red reflect armour.<br>
+            </p>
+            <p>
+              <h1 style="font-size: 18px;">Naughty side (Keep it secret)</h1>
+            <strong>Secret Society:</strong> {{Secret}} <br>
+              <span class="offset-line"> <strong>Secret Objective:</strong> {{ Secret_desc }}</span><br>
+              <strong>Mutant Power:</strong> {{Mutant}} : {{Mutant_desc}}<br>
+              <span class="offset-line"> <strong>Description:</strong> {{ Mutant_purpose }}</span><br>
+              <span class="offset-line"> <strong>Warning:</strong> {{ Mutant_warning }}</span><br>
+            </p>
+  
             <a href="{{ url_for('index') }}" class="btn btn-primary btn-lg px-4 gap-3">Back home</a>
           </div>
-     </main>      
+ </main>      
    </body>
 </html>
