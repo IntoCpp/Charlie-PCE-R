@@ -9,6 +9,7 @@
      <main>
         <div class="px-4 py-3 my-2 text-center">
             <img class="d-block mx-auto mb-4" src="{{ url_for('static', filename='images/paranoia-friendly-eye.svg') }}" alt="Friend-Computer eye" width="192" height="192"/>
+            <p class="text-center" style="opacity: 0.25;">Provided for fun by https://github.com/IntoCpp/Charlie-PCE-R</p>
             <h1 class="display-6 fw-bold text-primary">Paranoia Perfect Edition (2023) Character Generator</h1>
           </div>
         <form method="post" action="{{url_for('hello')}}">
@@ -29,7 +30,7 @@
                 </div>            
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center my-2">
                   <button type="submit" class="btn btn-primary btn-lg px-4 gap-3">Generate</button>
-                </div>            
+                </div>
             </div>
         </form>
      </main>      
