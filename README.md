@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This web service is based on a script I use to generate characters with random characteristics for the RPG game PARANOIA. The main goal of this project was to publish a web service as fast as possible while I had no knowledge on how to do such things. So yeah, things are little rough on the edges, and is very basic.
+This web service is based on a script I use to generate characters with random characteristics for the RPG game PARANOIA. All the online generators I found was for older version of Paranoia. The main goal of this project was to publish a web service as fast as possible while I had no knowledge on how to do such things. In my free time. So yeah, things are little rough on the edges, and is very basic.
 
 As of this writing you can find the online service at: https://charlie-r-pce.azurewebsites.net/
 
