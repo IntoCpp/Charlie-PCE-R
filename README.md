@@ -8,6 +8,9 @@ As of this writing you can find the online service at: https://charlie-r-pce.azu
 
 Some delays may occur due to Azure 'free' services, the page can take a minute or two to show up.
 
+**PLEASE** visit [Mongoose Publishing - Paranoia page](https://www.mongoosepublishing.com/collections/paranoia) for any information about the game. You will not learn much about the game here. Paranoia is an underated RPG that did not get published enough in the last 25+ years. Please support them to get things going :)
+
+
 ## Character generation - how it's done
 
 It is based on 'The Core Book' (TCB), (Mongoose Publishing/2023) description of how to create characters (Pages 20–25). Obviously, it replaces all human actions in the creation by a random decision from The Friend Computer. So this is great for NPC or first time player to gain a little time by just giving them pre-made characters.
@@ -29,7 +32,9 @@ Here is the rundown of the algorithm to give you an idea of what is going on.
 All of that is then printed on the screen. A set of data exists in French for the "FRA" option. Translation done mostly using 'DeepL Translate' that I can recommend.
 
 ## More options and customization
-(This text is from my original Python doc)
+The things described here could be added in this service with a pull request. Or on your PC if you just clone the repo and use the 'paranoia.py' scripts from the command line. 
+
+(This following is from my original Python doc)
 
 A great fun of the game is how it keeps things simple, fast, and let you do all sorts of crazy stuff. And that includes coming up with your own mutant powers, buttons and secret society. The book often says,  "suggested list of...". Mongoos Publishing is comming out with more of them soon I read.
 

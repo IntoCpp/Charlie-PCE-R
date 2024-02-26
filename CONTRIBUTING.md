@@ -1,12 +1,28 @@
-# Contributing to [project-title]
+# Contributing to [CHARLIE-PCE-R]
+Charlie say: This project was based on a tutorial. This file was not changed much. 
+
+At this time I think the most wolcome contrbution would be in the additions of new, funny and original content to the data dictionaries.
+
+At the top of the list, the generator would benefit to have more:
+* Mutant Powers
+* Treason Buttons
+* Violence Buttons
+* Secret Societies
+* Service Groups
+
+I am less sure about Secret Societies and Service Groups. They should stay within the game boundaries to be usefull. I'm still reading the game lore so I may be wrong. I'm hard press to find a counter example. "Service goup in charge of duct-tape" could be fun on a mission to secure a red-tape event.
+
+As for additional languages, I implemented that part really fast with numerous hard coded strings and I'm not happy about it. It's not as simple as submitting an additional 'paranoia_data_ABC' file. The hard coded strings must be moved in the data file first to be reasonablly decent.
+
+
+# The rest of this file ...
+ ... is the original Microsoft file I changed only to remove what made no sense in the contect of this project.
+#
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
