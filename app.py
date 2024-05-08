@@ -47,7 +47,7 @@ def hello():
 
       Alpha = pcg.productivity.brains["Alpha Complex"],
       Bluff = pcg.productivity.chutzpah["Bluff"],
-      Demolition = pcg.productivity.mechanics["Demolitions"],
+      Demolitions = pcg.productivity.mechanics["Demolitions"],
       Athletics = pcg.productivity.violence["Athletics"], 
 
       Bureaucracy = pcg.productivity.brains["Bureaucracy"],

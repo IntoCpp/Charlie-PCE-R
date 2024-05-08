@@ -99,7 +99,7 @@ From that tutorial, the first local test was done by:
 
 ``` Commad Line
 py -m venv .venv
-.venv\scripts\activate
+.venv\Scripts\activate
 pip install -r requirements.txt
 flask run
 ```
@@ -121,8 +121,7 @@ flask run
 * Approuved PR goes into the branch **test** and is deployed on the test system.
 * If tests passes a PR is made in the main branch. 
 
-Overkill? For this project certainly. But that's part of me learning how to do these things in Azure. 
-In reality I code and push to the test branch and havent merged in production as of this writing.
+Overkill? For this small project yes. But that's part of me learning how to do these things in Azure. 
 
 ## Test Dev - branch 'devel'
 Azure have 'deployment slots' that let you create devel, test, production, (or whatever you name them) deployments. 
